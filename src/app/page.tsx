@@ -1,6 +1,9 @@
 "use client";
 
-import AnimatedButton from "@/components/AnimatedButton";
+import StarButton from "@/components/buttons/StarButton";
+import StarButton2 from "@/components/buttons/StarButton2";
+import StarButton3 from "@/components/buttons/StarButton3";
+import StarButton4 from "@/components/buttons/StarButton4";
 import { useState, useEffect } from "react";
 
 export default function Home() {
@@ -561,7 +564,8 @@ export default function Home() {
                   </button>
                 </a>
                 <a href="/signup">
-                  <button className="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 bg-primary hover:bg-primary/90 h-10 relative overflow-visible bg-gradient-to-r from-cyan-500 to-purple-500 hover:from-cyan-600 hover:to-purple-600 text-white border-0 px-6 py-2 font-bold shadow-lg rounded-lg">
+                  <StarButton />
+                  {/* <button className="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 bg-primary hover:bg-primary/90 h-10 relative overflow-visible bg-gradient-to-r from-cyan-500 to-purple-500 hover:from-cyan-600 hover:to-purple-600 text-white border-0 px-6 py-2 font-bold shadow-lg rounded-lg">
                     <span className="relative z-10 flex flex-row items-center">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -584,7 +588,7 @@ export default function Home() {
                       Join Waitlist
                     </span>
                     <div className="absolute inset-0 rounded-[inherit] pointer-events-none"></div>
-                  </button>
+                  </button> */}
                 </a>
               </div>
             </div>
@@ -615,7 +619,8 @@ export default function Home() {
               </p>
               <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
                 <a href="/signup">
-                  <button className="inline-flex items-center justify-center gap-2 whitespace-nowrap ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-primary hover:bg-primary/90 h-10 relative overflow-visible bg-gradient-to-r from-cyan-500 to-purple-500 hover:from-cyan-600 hover:to-purple-600 text-white border-0 px-12 py-6 text-xl font-bold shadow-2xl shadow-cyan-500/50 hover:shadow-cyan-500/60 transition-all duration-300 rounded-xl group">
+                  <StarButton2 />
+                  {/* <button className="inline-flex items-center justify-center gap-2 whitespace-nowrap ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 bg-primary hover:bg-primary/90 h-10 relative overflow-visible bg-gradient-to-r from-cyan-500 to-purple-500 hover:from-cyan-600 hover:to-purple-600 text-white border-0 px-12 py-6 text-xl font-bold shadow-2xl shadow-cyan-500/50 hover:shadow-cyan-500/60 transition-all duration-300 rounded-xl group">
                     <span className="relative z-10 flex flex-row items-center">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -661,7 +666,7 @@ export default function Home() {
                         opacity: "0",
                       }}
                     ></div>
-                  </button>
+                  </button> */}
                 </a>
                 <a href="/features">
                   <button className="inline-flex items-center justify-center gap-2 whitespace-nowrap ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 hover:text-accent-foreground h-10 px-12 py-6 text-xl border-2 border-white/30 bg-white/5 backdrop-blur-sm text-white font-bold hover:bg-white/10 hover:border-white/50 transition-all duration-300 rounded-xl">
@@ -1297,12 +1302,12 @@ export default function Home() {
                         required
                       />
                     </div>
-
-                    <button
+                    <StarButton3 />
+                    {/* <button
                       className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 bg-primary text-primary-foreground hover:bg-primary/90 px-4 py-2 relative overflow-visible w-full h-12 text-lg font-bold bg-gradient-to-r from-cyan-500 to-purple-500 hover:from-cyan-600 hover:to-purple-600 shadow-lg shadow-cyan-500/25 transition-all duration-300 hover:shadow-cyan-500/40"
                       type="submit"
                     >
-                      <span className="relative z-10 flex flex-row items-center">
+                      <span className="relative z-10 flex flex-row items-center text-white">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width="24"
@@ -1323,7 +1328,7 @@ export default function Home() {
                         </svg>
                         Join the Waitlist
                       </span>
-                    </button>
+                    </button> */}
                   </form>
 
                   <p className="text-xs text-slate-500 text-center mt-4">
@@ -1418,7 +1423,8 @@ export default function Home() {
                 painting business
               </p>
               <a href="/signup">
-                <button className="inline-flex items-center justify-center gap-2 whitespace-nowrap ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 bg-primary hover:bg-primary/90 h-10 relative overflow-visible bg-gradient-to-r from-cyan-500 to-purple-500 hover:from-cyan-600 hover:to-purple-600 text-white border-0 px-16 py-8 text-2xl font-bold shadow-2xl shadow-cyan-500/50 hover:shadow-cyan-500/60 transition-all duration-300 rounded-2xl group">
+                <StarButton4 />
+                {/* <button className="inline-flex items-center justify-center gap-2 whitespace-nowrap ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 bg-primary hover:bg-primary/90 h-10 relative overflow-visible bg-gradient-to-r from-cyan-500 to-purple-500 hover:from-cyan-600 hover:to-purple-600 text-white border-0 px-16 py-8 text-2xl font-bold shadow-2xl shadow-cyan-500/50 hover:shadow-cyan-500/60 transition-all duration-300 rounded-2xl group">
                   <span className="relative z-10 flex flex-row items-center">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -1464,7 +1470,7 @@ export default function Home() {
                       opacity: 0,
                     }}
                   ></div>
-                </button>
+                </button> */}
               </a>
               <p className="text-white/60 mt-8 text-lg">
                 Limited founding member spots available
